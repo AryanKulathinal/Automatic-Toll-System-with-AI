@@ -78,7 +78,9 @@ components of the regular expression are :
 - import r e
 - p a t t e r n = r e . compile ( r ’ ^ [A−Z] −\ d {3} −[A−Z]{2} $ ’ )
  <img width="376" alt="image" src="https://github.com/AryanKulathinal/Automatic-Toll-System-with-AI/assets/116480303/ece21d47-d193-4bf3-a6f9-08ded207e81d">
+
  Figure : Regular Expression Used
+
 - ^ : Anchors the pattern to the start of the string,
 ensuring that the entire string is matched
 from the beginning.
