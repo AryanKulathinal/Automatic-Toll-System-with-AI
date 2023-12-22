@@ -181,3 +181,28 @@ unique number, while the ‘get_type‘ method fetches and returns the type of a
 also includes a demonstration in the ‘__main__‘ section, showcasing the usage of the ‘Database‘
 class to interact with the database. Overall, this script provides a modular and reusable solution for
 managing vehicle-related data using SQLite in a Python environment
+
+### Result
+
+The system accurately identifies and tracks vehicles approaching the toll gate. This achievement
+forms the foundation for a seamless toll collection process. Following swift vehicle detection, the
+system employs Optical Character Recognition (OCR) to read and recognize the number plates of
+identified vehicles. This crucial step serves as the bedrock for obtaining detailed information from
+our extensive database. Figure 6.1 shows the final output including number plate detection, details
+of the vehicle and toll calculation.
+<img width="388" alt="image" src="https://github.com/AryanKulathinal/Automatic-Toll-System-with-AI/assets/116480303/6cad25be-be38-4ff2-9d4d-780ad383c310">
+
+With the captured number plate information, the system efficiently queries the comprehensive
+database, retrieving vital details about registered vehicles such as the owner’s name, vehicle type,
+and registration status. This integration ensures precise and up-to-date information retrieval,
+crucial for the subsequent toll calculation.
+Leveraging the retrieved vehicle details, including type and any applicable toll exemptions or
+discounts, the system dynamically calculates toll amounts. This intelligent toll calculation takes
+into consideration varying rates for different vehicle types and specific regulations governing toll
+charges. Subsequently, the system generates detailed toll bills, offering a transparent breakdown
+of charges and relevant information.
+The AI automated toll collection system significantly reduces processing time and minimizes
+the possibility of errors associated with manual toll collection. Leveraging AI technologies ensures
+a high level of accuracy in vehicle detection, number plate recognition, and toll calculation,
+resulting in a streamlined and efficient toll gate operation that enhances overall accuracy, efficiency,
+and user satisfaction
