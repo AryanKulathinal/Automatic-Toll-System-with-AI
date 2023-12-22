@@ -77,8 +77,8 @@ match a specific format for license plates. Figure 4.3 shows the regular express
 components of the regular expression are :
 - import r e
 - p a t t e r n = r e . compile ( r ’ ^ [A−Z] −\ d {3} −[A−Z]{2} $ ’ )
-- <img width="376" alt="image" src="https://github.com/AryanKulathinal/Automatic-Toll-System-with-AI/assets/116480303/ece21d47-d193-4bf3-a6f9-08ded207e81d">
-- Figure : Regular Expression Used
+ <img width="376" alt="image" src="https://github.com/AryanKulathinal/Automatic-Toll-System-with-AI/assets/116480303/ece21d47-d193-4bf3-a6f9-08ded207e81d">
+ Figure : Regular Expression Used
 - ^ : Anchors the pattern to the start of the string,
 ensuring that the entire string is matched
 from the beginning.
@@ -94,10 +94,10 @@ until the end.
 uppercase letter, followed by three digits, a hyphen, and then two uppercase letters.
 #### Data Definitions
 - The dictionaries (Tolls and states) map certain keys to corresponding values.
-- • Tolls: Associates vehicle types (keys) with toll amounts (values). For example, a "Car" has
+- Tolls: Associates vehicle types (keys) with toll amounts (values). For example, a "Car" has
 a toll of 45, a "Bus" has a toll of 150, and so on.
 15
-- • States: Associates state codes (keys) with the full names of the states (values). For example,
+-  States: Associates state codes (keys) with the full names of the states (values). For example,
 "AN" maps to "Andaman and Nicobar," "AP" maps to "Andhra Pradesh," and so forth.
 These data structures are used in the code to retrieve toll amounts based on the type of vehicle
 and to display the full name of a state based on its code. In summary, these data structures
