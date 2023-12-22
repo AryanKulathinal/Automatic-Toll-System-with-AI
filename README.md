@@ -188,7 +188,7 @@ The system accurately identifies and tracks vehicles approaching the toll gate. 
 forms the foundation for a seamless toll collection process. Following swift vehicle detection, the
 system employs Optical Character Recognition (OCR) to read and recognize the number plates of
 identified vehicles. This crucial step serves as the bedrock for obtaining detailed information from
-our extensive database. Figure 6.1 shows the final output including number plate detection, details
+our extensive database. The below figure shows the final output including number plate detection, details
 of the vehicle and toll calculation.
 <img width="388" alt="image" src="https://github.com/AryanKulathinal/Automatic-Toll-System-with-AI/assets/116480303/6cad25be-be38-4ff2-9d4d-780ad383c310">
 
